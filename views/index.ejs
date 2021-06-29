@@ -1,0 +1,8 @@
+<h3>Halaman Home</h3>
+<h3>Daftar Mahasiswa</h3>
+<% mahasiswa.forEach(mhs => { %>
+ <ul>
+     <li><%- mhs.nama %> </li>
+     <li><%- mhs.email %> </li>
+ </ul>
+<% }) %>
